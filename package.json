@@ -9,13 +9,27 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@native-html/table-plugin": "^5.3.1",
+    "@react-native-community/hooks": "^2.8.1",
     "expo": "~47.0.8",
+    "expo-constants": "^14.0.2",
     "expo-status-bar": "~1.4.2",
+    "prop-types": "^15.8.1",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-camera": "^4.2.1",
+    "react-native-login-screen": "^4.2.0",
+    "react-native-permissions": "^3.6.1",
+    "react-native-qrcode-scanner": "^1.5.5",
+    "react-native-table-component": "^1.2.2",
+    "react-native-webview": "^11.25.0",
+    "expo-barcode-scanner": "~12.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
-  "private": true
+  "private": true,
+  "prettier": {
+    "tabWidth": 4
+  }
 }
